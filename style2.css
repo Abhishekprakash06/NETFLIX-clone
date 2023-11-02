@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@1,300&family=Sometype+Mono&display=swap');
+
+.box{
+    width:100hw;
+    height:100vh;
+    /* background-color: blue; */
+    
+    
+   
+}
+.box .netflix{
+    width:10vw;
+    height:5vh;
+    margin-right:50vw;
+    margin-left:4vw;
+    cursor:pointer;
+    margin-top:5vh;
+}
+.text{
+    font-size:08vh;
+    padding-left:4vw;
+    padding-top:8vh;
+    color:white;
+    
+}
+.btnsign{
+    width:20.5vw;
+    height:6vh;
+    margin-left:4vw;
+    margin-top:3vh;
+    border-radius:6px;
+    color:white;
+    background-color:red;
+    font-weight: bold;
+    font-size:03vh;
+    cursor: pointer;
+    font-family:open Sans;
+    border:1px solid red;
+}
+.inp1{
+    width:19vw;
+    height:5vh;
+    margin-left:4vw;
+    margin-top:2vh;
+    border-radius:6px;
+    padding-left:1vw;
+    background-color: rgb(51,51,51);
+    border:1px solid black;
+    font-family:open Sans;
+    color:white;
+
+}
+.inp2{
+    width:19vw;
+    height:5vh; 
+    margin-left:4vw;
+    margin-top:3vh;
+    border-radius:6px;
+    padding-left:1vw;
+    font-family:open Sans;
+    background-color: rgb(51,51,51);
+    border:1px solid black;
+    color:white;
+
+}
+.main{
+    background-color:black;
+    opacity:0.8;
+    width:30vw;
+    height:90vh;
+    margin-left:34vw;
+    font-family:open Sans;
+    border-radius: 5px;
+
+}
+.box{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+}
+.obj2{
+    display:flex;
+    justify-content: space-between;
+}
+.obj2 .remember{
+    color:white;
+    margin-left:4vw;
+}
+.obj2 .help{
+    color:white;
+    margin-right:5.5vw;
+    text-decoration: none;
+}
+.obj3{
+    display:flex;
+    color:white;
+    margin-left:4vw;
+    margin-top:15vh;
+}
+.obj3 .again{
+    color:white;
+    text-decoration: none;
+    padding-left:1vw;
+    font-weight: bold;
+}
+.last{
+    color:white;
+    margin-left:4vw;
+    margin-top:3vh;
+    margin-right:4vw;
+}
+
+
+
+
+body{
+    margin:0;
+    font-family:open Sans;
+    background-color: black;
+}
+    
+@media (max-width:600px){
+    .box{
+        width:100vw;
+        height:100vh;
+    }
+    .box .netflix{
+    width:16vw;
+    height:2vh;
+    margin-right:0;
+    margin-left:4vw;
+    margin-top:3vh;
+    }
+
+    .main{
+        width:60vw;
+        margin-left:19vw;
+        margin-top:5vh;
+        height:65vh;
+    }
+
+    .main .text{
+        font-size:3vh;
+        margin-top:0vh;
+        padding-top:1vh;
+    }
+    .main .inp1{
+        width:50vw;
+        height:4vh;
+        font-size:2vh;
+    }
+    .main .inp2{
+        width:50vw;
+        height:4vh;
+        margin-top:1vh;
+        font-size:2vh;
+    }
+    .main .btnsign{
+        width:51.5vw;
+        height:4vh;
+        font-size:2vh;
+        margin-top:2vh;
+    }
+    .main .obj2 .remember{
+        font-size:1.9vh;
+        margin-left:3vw;
+        padding-bottom:0vh;
+        margin-top:0;
+    }
+    .main .obj2 .help{
+        font-size:1.5vh;
+        padding-top:0;
+        margin-top:1vh;
+    }
+
+    .obj3 .new{
+        font-size:1.5vh;
+    }
+    .obj3 .again{
+        font-size:1.5vh;
+        margin-left:10vw;
+    }
+    .last{
+        font-size:1.5vh;
+    }
+    
+}
