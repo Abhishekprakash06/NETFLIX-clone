@@ -68,6 +68,10 @@
     width: 100vw;
     margin-top: 5vh;
 }
+.tst{
+    transition:all 0.5 ease;
+    background-color: blue;
+}
 
 body {
     margin: 0px;

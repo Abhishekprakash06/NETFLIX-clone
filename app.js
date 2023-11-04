@@ -21,7 +21,7 @@ let i6 = document.querySelector(".i6");
 q1.addEventListener("click",function(){
      //hide1.classList.add("into");
      hide1.style.display="block";
-    
+    //  hide1.classList.add("tst")
     
     i1.style.display="none";
     i2.style.display="inline";
