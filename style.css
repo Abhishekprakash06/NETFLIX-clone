@@ -445,6 +445,23 @@ body {
     color: red;
 }
 
+.tats{
+    animation-name: down;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes down{
+    0%{
+        opacity:0%;
+    }
+    100%{
+        
+        transform: translateY(0.5vh);
+    }
+}
+
 @media (max-width:600px){
     
     .container1{
