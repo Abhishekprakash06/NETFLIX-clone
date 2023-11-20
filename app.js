@@ -18,109 +18,109 @@ let i3 = document.querySelector(".i3");
 let i4 = document.querySelector(".i4");
 let i5 = document.querySelector(".i5");
 let i6 = document.querySelector(".i6");
-q1.addEventListener("click",function(){
-     //hide1.classList.add("into");
-     hide1.style.display="block";
-     hide1.classList.add("tats");
+q1.addEventListener("click", function () {
+    //hide1.classList.add("into");
+    hide1.style.display = "block";
+    hide1.classList.add("tats");
     //  hide1.classList.add("tst")
-    
-    i1.style.display="none";
-    i2.style.display="inline";
-    i3.style.display="inline";
-    i5.style.display="inline";
-    i4.style.display="inline";
-    i6.style.display="inline";
-    hide2.style.display="none";
-    hide3.style.display="none";
-    hide4.style.display="none";
-    hide5.style.display="none";
-    hide6.style.display="none";
-    
+
+    i1.style.display = "none";
+    i2.style.display = "inline";
+    i3.style.display = "inline";
+    i5.style.display = "inline";
+    i4.style.display = "inline";
+    i6.style.display = "inline";
+    hide2.style.display = "none";
+    hide3.style.display = "none";
+    hide4.style.display = "none";
+    hide5.style.display = "none";
+    hide6.style.display = "none";
+
 });
-q2.addEventListener("click",function(){
+q2.addEventListener("click", function () {
     // hide2.classList.add("sea");
-    hide2.style.display="block";
+    hide2.style.display = "block";
     hide2.classList.add("tats");
-    i2.style.display="none";
-    i1.style.display="inline";
-    i3.style.display="inline";
-    i5.style.display="inline";
-    i4.style.display="inline";
-    i6.style.display="inline";
-    hide1.style.display="none";
-    hide3.style.display="none";
-    hide4.style.display="none";
-    hide5.style.display="none";
-    hide6.style.display="none";
-    
+    i2.style.display = "none";
+    i1.style.display = "inline";
+    i3.style.display = "inline";
+    i5.style.display = "inline";
+    i4.style.display = "inline";
+    i6.style.display = "inline";
+    hide1.style.display = "none";
+    hide3.style.display = "none";
+    hide4.style.display = "none";
+    hide5.style.display = "none";
+    hide6.style.display = "none";
 
-    
+
+
 })
 
-q3.addEventListener("click",function(){
-    hide3.style.display="block";
+q3.addEventListener("click", function () {
+    hide3.style.display = "block";
     hide3.classList.add("tats");
-    i3.style.display="none";
-    i2.style.display="inline";
-    i1.style.display="inline";
-    i5.style.display="inline";
-    i4.style.display="inline";
-    i6.style.display="inline";
-    hide2.style.display="none";
-    hide1.style.display="none";
-    hide4.style.display="none";
-    hide5.style.display="none";
-    hide6.style.display="none";
-    
+    i3.style.display = "none";
+    i2.style.display = "inline";
+    i1.style.display = "inline";
+    i5.style.display = "inline";
+    i4.style.display = "inline";
+    i6.style.display = "inline";
+    hide2.style.display = "none";
+    hide1.style.display = "none";
+    hide4.style.display = "none";
+    hide5.style.display = "none";
+    hide6.style.display = "none";
+
 })
 
-q4.addEventListener("click",function(){
-    hide4.style.display="block";
+q4.addEventListener("click", function () {
+    hide4.style.display = "block";
     hide4.classList.add("tats");
-    i4.style.display="none";
-    i2.style.display="inline";
-    i3.style.display="inline";
-    i5.style.display="inline";
-    i1.style.display="inline";
-    i6.style.display="inline";
-    hide2.style.display="none";
-    hide3.style.display="none";
-    hide1.style.display="none";
-    hide5.style.display="none";
-    hide6.style.display="none";
-    
+    i4.style.display = "none";
+    i2.style.display = "inline";
+    i3.style.display = "inline";
+    i5.style.display = "inline";
+    i1.style.display = "inline";
+    i6.style.display = "inline";
+    hide2.style.display = "none";
+    hide3.style.display = "none";
+    hide1.style.display = "none";
+    hide5.style.display = "none";
+    hide6.style.display = "none";
+
 })
 
-q5.addEventListener("click",function(){
-    hide5.style.display="block";
+q5.addEventListener("click", function () {
+    hide5.style.display = "block";
     hide5.classList.add("tats");
-    i5.style.display="none";
-    i2.style.display="inline";
-    i3.style.display="inline";
-    i1.style.display="inline";
-    i4.style.display="inline";
-    i6.style.display="inline";
-    hide2.style.display="none";
-    hide3.style.display="none";
-    hide4.style.display="none";
-    hide1.style.display="none";
-    hide6.style.display="none";
-    
+    i5.style.display = "none";
+    i2.style.display = "inline";
+    i3.style.display = "inline";
+    i1.style.display = "inline";
+    i4.style.display = "inline";
+    i6.style.display = "inline";
+    hide2.style.display = "none";
+    hide3.style.display = "none";
+    hide4.style.display = "none";
+    hide1.style.display = "none";
+    hide6.style.display = "none";
+
 })
 
-q6.addEventListener("click", function(){
-    hide6.style.display="block";
+q6.addEventListener("click", function () {
+    hide6.style.display = "block";
     hide6.classList.add("tats");
-    i6.style.display="none";
-    i2.style.display="inline";
-    i3.style.display="inline";
-    i5.style.display="inline";
-    i4.style.display="inline";
-    i1.style.display="inline";
-    hide2.style.display="none";
-    hide3.style.display="none";
-    hide4.style.display="none";
-    hide5.style.display="none";
-    hide1.style.display="none";
-    
+    i6.style.display = "none";
+    i2.style.display = "inline";
+    i3.style.display = "inline";
+    i5.style.display = "inline";
+    i4.style.display = "inline";
+    i1.style.display = "inline";
+    hide2.style.display = "none";
+    hide3.style.display = "none";
+    hide4.style.display = "none";
+    hide5.style.display = "none";
+    hide1.style.display = "none";
+
 })
